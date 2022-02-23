@@ -23,7 +23,7 @@ export default function doesNotHaveBlockingChecks (
   )
   if (!allChecksCompleted) {
     return {
-      status: 'pending',
+      status: 'pending not working',
       message: 'There are still pending checks'
     }
   }
